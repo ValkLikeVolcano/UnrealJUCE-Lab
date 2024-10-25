@@ -7,3 +7,6 @@ To use this project, you'll need to add the JUCE third-party library yourself. F
 - Add to Project: Place the static library and the corresponding JUCE modules folder in a ThirdPartyFolder within your plugins's directory
 
 Note: Ensure that the paths to the third-party library and modules are correctly configured in your project's build.cs.
+
+To use this project with ASIO drivers, ensure ASIO drivers are installed and configured on your system. 
+Then, in the Projucer, enable ASIO support in the "JUCE Audio Devices" module before building the project.
